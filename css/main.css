@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   background: #eeeeee;
   font-size: 18px;
   height: 100vh;
@@ -29,7 +34,8 @@ body {
   padding: 1em;
 }
 
-.container .left p, .container .left h1 {
+.container .left p,
+.container .left h1 {
   color: white;
 }
 
@@ -42,9 +48,10 @@ body {
   margin-top: 2em;
 }
 
-.container input, .container button {
+.container input,
+.container button {
   width: calc(100% - 3em);
-  padding: .5em;
+  padding: 0.5em;
   font-size: 1.3rem;
   outline: none;
   margin: 1em;
@@ -61,7 +68,7 @@ body {
 
 .attention {
   width: 100%;
-  margin: .5em auto 0;
+  margin: 0.5em auto 0;
   text-align: center;
 }
 
@@ -127,7 +134,7 @@ body {
         justify-self: center;
   }
   .inner .right input {
-    width: calc(100% - 1em) !important;
+    width: 100% !important;
     margin: 1em 0;
   }
   .inner .right button {
@@ -141,6 +148,7 @@ body {
     height: 70%;
     z-index: 0;
     width: 100%;
+    pointer-events: none;
   }
   .proto-container .proto {
     border: 3px solid rgba(255, 255, 255, 0.1);
