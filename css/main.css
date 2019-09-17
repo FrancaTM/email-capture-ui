@@ -30,7 +30,7 @@ body {
 }
 
 .container .left {
-  background: linear-gradient(160deg, #601df7 0%, #8800ff 100%);
+  background: linear-gradient(160deg, #673AB7 0%, #9C27B0 100%);
   padding: 1em;
 }
 
@@ -60,7 +60,7 @@ body {
 .container button {
   width: calc(100% - 2em);
   margin: 0;
-  background: #8800ff;
+  background: #9C27B0;
   color: white;
   border: none;
   cursor: pointer;
@@ -79,7 +79,7 @@ body {
 }
 
 .attention .arrow {
-  width: 15em;
+  width: 12em;
 }
 
 @media only screen and (min-width: 768px) {
